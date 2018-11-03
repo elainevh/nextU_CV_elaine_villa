@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,user-scalable=No">
+	<title>CURRICULUM VITAE | ELAINE VILLA</title>
+	</head>
+<body>
+	<header>
+		<svg style="border:1px solid #ccc;">
+			<image xlink:href="images/logo_evh.svg" width="130px" height="120px" x="70px" y="10px"></image>
+		</svg>
+		<h1>Curriculum Vitae</h1>
+		<h2>Elaine Villa Huerta</h2>
+		<h3>Lugar de nacimiento: Xalapa, Veracruz, Mex.</h3>
+		<h3>Fecha de nacimiento: 03/Junio/79 </h3>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">INICIO</a></li>
+			<li><a href="educacion.html">EDUCACION</a></li>
+			<li><a href="experiencia.html">EXPERIENCIA</a></li>
+		</ul>
+	</nav>
+	<section>
+		<h2>Educación</h2>
+		<table border="1">
+			<thead>
+				<tr>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>¿Culminó?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>2010</td>
+					<td>Mediateca de la Ciudad</td>
+					<td>Chihuahua, Chih.</td>
+					<td>Diploma Adobe (Diseño y Desarrollo)</td>
+				</tr>
+				<tr>
+					<td>1997-2001</td>
+					<td>Universidad Veracruzana</td>
+					<td>Xalapa,Ver.</td>
+					<td>Título Licenciatura en Informática</td>
+				</tr>
+				<tr>
+					<td>1994-1997</td>
+					<td>Colegio Preparatorio Diurno</td>
+					<td>Xalapa,Ver.</td>
+					<td>Certificado</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>&nbsp;</p>
+		<form name="agregar_estudios" id="agregar_estudios" autocomplete="on">
+			<legend><strong>Agregar Estudios</strong><br><br></legend>
+			<label for="anio"> Año: </label>
+			<select id="anio" name="anio">
+				<option>--Seleccione Año</option>
+				<option>2018</option>
+				<option>2017</option>
+				<option>2016</option>
+				<option>2015</option>
+				<option>2014</option>
+				<option>2013</option>
+				<option>2012</option>
+				<option>2011</option>
+			</select><br><br>
+			<label for="institucion"> Institución: </label>
+			<input id="institucion" name="institucion" type="text"/>
+			<br><br>
+			<label for="lugar"> Lugar: </label>
+			<textarea id="lugar" name="lugar" cols="25" rows="4"></textarea>
+			<br><br>
+			<input id="enviar" name="enviar" type="submit" value="Enviar"/>
+		</form>
+	</section>
+	<footer>
+		<p>E-Mail: elainevh_2001@yahoo.com.mx - Cel: 4422749382</p>
+	</footer>
+</body>
+</html>
